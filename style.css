@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-nav a:hover {
+border-bottom: 1px solid #e68b14;
+
+}
+#nav-section{
+    background-color: #321a4a;
+   
+}
+#banner-section{
+    height: 100vh;
+    background-color: #321a4a;
+    color: white;
+}
+#banner-section h1{
+    margin: 150px 0 0 0 ;
+
+ 
+}
+#banner-section p{
+    margin:30px 0 20px 0;
+}
+#banner-section button{
+    width: 120px;
+    height: 50px;
+    border: white;
+    background-color: #e68b14;
+    border-radius: 10px;
+    color:rgb(226, 220, 220)
+}
+#banner-section button:hover{
+    background-color:white ;
+    border-radius: 10px;
+    color: #321a4a;
+    border: 1px solid white;
+}
+#banner-section img{
+    width: 400px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+#banner-mobile{
+height: 120vh;
+background-color: #321a4a;
+color: white;
+
+}
+#banner-mobile img{
+    width: 300px;
+   margin-top: 30px;
+   margin-left: 30px;
+}
+#banner-mobile h1{
+font-size:40px;
+}
+#banner-mobile p{
+    font-size: medium;
+    text-align: center;
+    margin-top: 20px;
+}
+#about-section{
+    height: 100vh;
+}
+#about-section img{
+    width: 400px;
+    margin-top: 120px;
+}
+#about-section button{
+    cursor: none;
+    margin-top: 80px;
+    width: 120px;
+    height: 50px;
+    border: white;
+    background-color: #e68b14;
+    border-radius: 10px;
+    color:rgb(255, 254, 254)
+}
+#about-section p{
+  
+    margin-top: 30px;
+   
+}
+#about-mobile{
+    height: 120vh;
+}
+#about-mobile button{
+    margin-left: 115px;
+    width: 120px;
+    height: 50px;
+    border: white;
+    background-color: #e68b14;
+    border-radius: 10px;
+    color:rgb(255, 254, 254)
+}
+#about-mobile img{
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+#about-mobile p{
+    margin-top: 30px;
+    font-size: small;
+   
+    text-align: center;
+}
