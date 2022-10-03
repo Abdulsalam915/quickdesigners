@@ -574,10 +574,11 @@ footer{
     .header-socials{
         position:absolute;
         z-index:1;
-        bottom:11rem;
+        bottom:30rem;
+        right: 2rem;
     }
     .header-socials a{
-        color:var(--color-white);
+        color:var(--color-primary);
     }
     /* --------------------compaines---------------- */
     .container-companies{
