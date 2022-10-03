@@ -1,141 +1,207 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+
+    <!-- -------------css-------------->
+    <link rel="stylesheet" href="style.css">
+    <!-- ----------------google-fonts---------------- -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>Hello, world!</title>
-  </head>
-  <body>
-   <section id="nav-section" class="d-none d-sm-block">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- ------------icon-scout------------->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
-    <nav class="navbar navbar-expand-lg navbar-light ">
-      <a class="navbar-brand text-white" style="margin-left:100px ;" href="#">Quick-Designer</a>
-      <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav ml-lg-auto">
-          <a class="nav-link active text-white" href="#">Home <span class="sr-only">(current)</span></a>
-          <a class="nav-link text-white" href="#">Features</a>
-          <a class="nav-link text-white" href="#">Pricing</a>
-          <a class="nav-link text-white" href="#">Disabled</a>
-        </div>
-      </div>
-    </nav>
-   </section>
-   
-   <section id="nav-section" class="d-block d-sm-none">
+</head>
+<body>
+     <nav>
+     <div class="container nav-container">
+        <a href="#header" class="nav-logo">
+            <h3>logo</h3>
+        </a>
+      <ul class="nav-menu">
+        <li><a href="index.html#header">HOME</a></li>
+        <li><a href="index.html#services">SERVICE</a></li>
+        <li><a href="index.html#portfolio">PORTFOLIO</a></li>
+        <li><a href="index.html#contact">CONTACT</a></li>
+      </ul>
 
-    <nav class="navbar navbar-expand-lg navbar-light ">
-      <a class="navbar-brand text-white" href="#">Quick-Designer</a>
-      <button class="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav ml-lg-auto">
-          <a class="nav-link active text-white" href="#">Home <span class="sr-only">(current)</span></a>
-          <a class="nav-link text-white" href="#">Features</a>
-          <a class="nav-link text-white" href="#">Pricing</a>
-          <a class="nav-link disabled text-white" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </div>
-      </div>
-    </nav>
-   </section>
+    <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+    <button id="close-menu-btn"><i class="uil uil-multiply"></i></i></button>
+     </div>
+     </nav>
 
-   <section id="banner-section" class="d-none d-sm-block">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <h1> welcome to Quick-designers website</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing 
-            elit. Officia deserunt, officiis animi quis voluptates
-             illum hic facilis libero exercitationem? Facilis.</p>
-             <button>click here</button>
-        </div>
- <div class="col-md-6 ">
-  <img class=" text-center rounded-circle" src="boy.png" alt="">
- </div>
-      </div>
-    </div>
+     <!-- ==========header=========== -->
 
-   </section>
-
-
-   
-   <section id="banner-mobile" class="d-block d-sm-none">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h1 class="mt-5 text-center " > welcome to Quick-designers website</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing 
-            elit. Officia deserunt, officiis animi quis voluptates
-             illum hic facilis libero exercitationem? Facilis.</p>
-            
-        </div>
- <div class="col-md-12 ">
-  <img class=" text-center rounded-circle" src="boy.png" alt="">
- </div>
-      </div>
-    </div>
-
-   </section>
-    <section id="about-section" class="d-none d-sm-block">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-6">
-                  <img src="girl.png">
-                </div>
-                   <div class="col-md-6">
-                    <button>About us</button>
-
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                       Libero aliquid quod fuga voluptate inventore
-                       sunt, eius quis, provident eaque eveniet a asperiores
-                        vel id velit dignissimos molestiae. Possimus, ex veritatis.</p>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                          Libero aliquid quod fuga voluptate inventore
-                          sunt, eius quis, provident eaque eveniet a asperiores
-                           vel id velit dignissimos molestiae. Possimus, ex veritatis.</p>
-                   </div>
-              
+     <header id="header">
+      <div class="container header-container">
+           <div class="header-left">
+              <div>  
+                <h3>Hello There! I'm</h3>
+                <h1>Ahmed<br>Abdulsalam</h1>
+                <p>
+                  A UI/UX Designer and a full stack wed developer. i have helped 300+ clients worldwide bring their ideas to the online  market. let's collaborate today!
+                </p>
+                <a href="contact" class="btn btn-primary  btn-lg">Get in Touch</a>
               </div>
+           </div>
+           <div class="header_right">
+                <div class="header-image">
+                  <img src="./boy.png" >
+                </div>
+                <div class="header-right-bg"></div>
+                <ul class="header-socials">
+                  <li><a href="#" target="_blank"><i class="uil uil-instagram"></i></a></li>
+                  <li><a href="#" target="_blank"><i class="uil uil-whatsapp"></i></a></li>
+                  <li><a href="#" target="_blank"><i class="uil uil-behance"></i></a></li>
+                  
+                </ul>
+           </div>
+      </div>
+     </header>
+
+     <!-- -----------end of header---------- -->
+     <section id="companies">
+             <div class="container container-companies">
+              <span><img src="./2560px-Accenture.svg.png" ></span>
+              <span><img src="./2560px-Stripe_Logo,_revised_2016.svg.png" ></span>
+              <span><img src="./BQwukuZwwwXrg27B9Le2Q6.png" ></span>
+              <span><img src="./google-logo-history-png-2585.png" ></span>
+              <span><img src="./IBM-Logo-Design-1972-present.png" ></span>
+              <span><img src="./samsung-logo-png-1290.png" ></span>
+             </div>
+     </section>
+
+     <!-- -------------end of companies---------- -->
+     <section id="services">
+           <div class="container services-container">
+            <div class="services-left">
+              <h1>7+</h1>
+              <h4>Years Working Experience</h4>
+              <small>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint harum cupiditate cumque natus obcaecati quaerat quia cum ullam at, quam pariatur dolorem, ducimus quibusdam.</small>
+            </div>
+            <div class="services-right">
+                  <h2>Web Designer And Developer, Specialised in UI/UX , and Digital Designs.</h2>
+                  <div class="services-cards">
+                    <div class="services-card">
+                      <span class="services-card-icon"><i class="uil uil-layers-alt"></i></span>
+                      <h5>Product Design</h5>
+                      <a href="#">Discover More  <i class="uil uil-arrow-right"></i></a>
+                  
+                  </div>
+                    <div class="services-card">
+                      <span class="services-card-icon"><i class="uil uil-browser"></i></span>
+                      <h5>Web Development </h5>
+                      <a href="#">Discover More <i class="uil uil-arrow-right"></i></a>
+                  
+                  </div>
+                    <div class="services-card">
+                      <span class="services-card-icon"><i class="uil uil-lightbulb"></i></span>
+                      <h5>Graphics Design</h5>
+                      <a href="#">Discover More <i class="uil uil-arrow-right"></i></a>
+                  
+                  </div>
+            </div>
+           </div>
+
+     </section>
+
+     <!-- -------------------end of services--------------- -->
+
+     <section id="portfolio">
+         <div class="container portfolio-container">
+          <div class="portfolio-head">
+               <h3>Outwork, Successful Client Product.</h3>
+               <div class="portfolio-head-right">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et ipsam doloremque, aliquam molestiae quis modi voluptatum inventore dignissimos deleniti quae, ratione commodi eveniet similique totam tempore laborum dicta, qui recusandae.</p>
+                <a href="">Expore More  <i class="uil uil-arrow-right"></i></a>
+              </div>
+          </div>
+          
+          <div class="portfolio-projects">
+            <article class="portfolio-project">
+                  <span class="portfolio-project-image"><img src="./project 1.jpg"></span>
+            </article>
+            <article class="portfolio-project">
+                  <span class="portfolio-project-image"><img src="./project 2.jpg"></span>
+            </article>
+            <article class="portfolio-project">
+                  <span class="portfolio-project-image"><img src="./project 3.jpg"></span>
+            </article>
+            <article class="portfolio-project">
+                  <span class="portfolio-project-image"><img src="./project 4.jpg"></span>
+            </article>
+          </div>
+         </div>
+     </section>
+
+
+
+    <!-- ----------------- end of portfolio---------- -->
+
+    <section id="contact">
+           <div class="container contact-container">
+            <div class="contact-left">
+              <h2>Let's Talk</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis praesentium quis tempore, iure quidem a velit recusandae, earum itaque nisi beatae repudiandae incidunt repellendus ab.</p>
+              <ul class="contact-socials">
+                <li><a href="#" target="_blank"><i class="uil uil-instagram"></i></a></li>
+                <li><a href="#" target="_blank"><i class="uil uil-whatsapp"></i></a></li>
+                <li><a href="#" target="_blank"><i class="uil uil-behance"></i></a></li>
+                
+              </ul>
+
             </div>
 
+            <form action="">
+              <input type="text" name="name" placeholder="Your Name" required>
+              <input type="email" name="email" placeholder="Your Email" required>
+              <textarea  name="Message" row="6" placeholder="Message" required></textarea>
+              <button type="submit" class="btn">Send <i class="uil uil-arrow-right"></i></button>
+            </form>
+           </div>
     </section>
+                   <hr>
 
-    <section id="about-mobile" class="d block d-sm-none">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <button class="mt-5 ">About us</button>
+    <footer>
+     <small> copyright &copy;  Quick Designer portfolio</small>
+    </footer>
 
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                       Libero aliquid quod fuga voluptate inventore
-                       sunt, eius quis, provident eaque eveniet a asperiores
-                        vel id velit dignissimos molestiae. Possimus, ex veritatis.</p>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                          Libero aliquid quod fuga voluptate inventore
-                          sunt, eius quis, provident eaque eveniet a asperiores
-                           vel id velit dignissimos molestiae. Possimus, ex veritatis.</p>
-        </div>
-        <div class="col-md-12">
-          <img src="girl.png">
-        </div>
-      </div>
+    <script>
+     
 
-    </div>
+     const menuBtn = document.querySelector('#open-menu-btn');
+     const closeBtn = document.querySelector('#close-menu-btn');
+     const menu = document.querySelector('.nav-menu');
 
-    </section>
+    // open nav men
+    menuBtn.addEventListener('click', () => {
+        menu.style.display ='block';
+        closeBtn.style.display ='inline-block';
+        menuBtn.style.display ='none';
+    })
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
- 
-  </body>
+
+
+    const closeNav = () => {
+      menu.style.display ='none';
+        closeBtn.style.display ='none';
+        menuBtn.style.display ='inline-block';
+    }
+    closeBtn.addEventListener('click', closeNav);
+
+
+
+    // --------------closenav menu-----------------
+    if(window.innerWidth  < 1024){
+      document.querySelectorAll(".nav-menu li a").forEach(navItem =>{
+         navItem.addEventListener('click', closeNav)
+
+      })
+    }
+    </script>
+</body>
 </html>
