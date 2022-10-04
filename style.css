@@ -363,14 +363,7 @@ form input, textarea {
   padding: 1rem;
 }
 
-/* ------------footer----------- */
-footer{
-    text-align: center;
-    background: var(--color-primary);
-    color: var(--color-white);
-    padding: 0.7rem 0;
-    border-top: 1px solid var(--color-black);
-}
+
 
 /* -------------media queries---------------- */
 @media screen and (max-width: 1024px) {
